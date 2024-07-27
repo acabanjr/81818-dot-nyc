@@ -62,7 +62,6 @@ body {
 }
 
 /* ----- Hamburger Navigation ----- */
-
 .hamburger {
   display: none; /* Hidden on desktop */
   flex-direction: column;
@@ -78,7 +77,6 @@ body {
 }
 
 /* ----- Mobile ----- */
-
 @media screen and (max-width: 768px) {
   .mobile-title {
     display: block; /* Show title */
@@ -108,9 +106,10 @@ body {
   }
 
   .hamburger {
-    display: flex; /* Show the hamburger navigation */
+    display: flex !important; /* Show the hamburger navigation */
   }
 }
+
 
 /* ----- Image Headers ----- */
 
